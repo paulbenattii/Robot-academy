@@ -28,7 +28,7 @@ source ROS 2 on the terminal
 if you have the one in this guide you can start here:
 enter in a terminal on your host machine
 
-```bash
+```bashcd ~
 docker exec -it --user ubuntu racademy bash
 ```
 
@@ -215,6 +215,9 @@ entry_points={
 ```
 
 > **Tip** – Every time you change `setup.py` or any Python source file inside a package, you must **re‑build** and **re‑source** the workspace.
+        cd ~/racademy_ws
+        colcon build
+        source install/setup.bash
 
 ### 5.1 Declaring Runtime Dependencies
 
@@ -363,3 +366,4 @@ $ source install/setup.bash
 — **End of Chapter 1**
 
 ---
+    

@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ubuntu',
-    maintainer_email='ubuntu@todo.todo',
+    maintainer='ros2user',
+    maintainer_email='ros2user@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -22,11 +22,11 @@ setup(
             'pytest',
         ],
     },
-     entry_points={
+    entry_points={
         "console_scripts": [
             "simple_publisher  = racademy_py_examples.simple_publisher:main",
             "simple_subscriber = racademy_py_examples.simple_subscriber:main",
-            "simple_parameter  = racademy_py_examples.simple_parameter:main",
         ],
     },
+    
 )
